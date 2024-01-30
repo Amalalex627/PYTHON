@@ -1,0 +1,21 @@
+num1 =float(input("Enter the first number: ")) 
+num2 =float(input("Enter the second number: "))
+operation = input("Choose an arithmetic operation (+, -, *, /, ** for exponentiation, // for floor division and % for modulo): ")
+if operation == "+":
+result = num1 + num2
+elif operation == "-":
+result = num1 - num2
+elif operation == "*":
+result = num1 * num2
+elif operation == "/":
+result = num1 / num2
+elif operation == "**":
+result = num1 ** num2
+elif operation == "//":
+result = num1 // num2
+elif operation == "%":
+result = num1 % num2
+else:
+print("Invalid input")
+# Print the result of the arithmetic operation
+print("The result of the arithmetic operation is: ", result)
